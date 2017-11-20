@@ -1,0 +1,42 @@
+.navbar-brand {
+  position: relative;
+  background: url(../images/logo.png);
+  width: 70px;
+  left: 15px;
+  background-size: contain;
+}
+
+h1.carousel-header {
+	color: white;
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 80px;
+	font-size: 4em;
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1; 
+	text-align: center;
+	outline: 5px solid white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+p.carousel-header {
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1em;
+	font-style: italic;
+}
+
+.image2{
+   display: none;
+}
+
+@media only screen and (max-width: 800px){
+   .image1{
+     display: none;
+   }
+
+   .image2{
+     display: block;
+   }
+}
